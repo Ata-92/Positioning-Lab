@@ -1,0 +1,29 @@
+.p1 {
+    display: inline;
+    border: thin solid blue;
+    margin: 20px;
+}
+
+span {
+    display: block;
+    border: thin solid #f00;
+}
+
+.p3 {
+    display: inline-block;
+    border: thin solid rgb(0, 255, 0);
+    width: 4rem;
+    height: 4rem;
+}
+
+#p41 {
+    display: none;
+}
+
+.p5 {
+    width: 50%;
+    background-color: gray;
+    padding: .5rem;
+    margin: auto;
+}
+
