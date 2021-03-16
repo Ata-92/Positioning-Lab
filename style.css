@@ -64,3 +64,74 @@ span {
     padding: 1rem;
 }
 
+#f3img {
+  float: left;
+}
+
+.f3 {
+  margin: 1rem;
+}
+
+#f3p1 {
+  padding: 1rem;
+}
+
+#f3p2 {
+  clear: left;
+}
+
+.f4 img {
+  float: left;
+}
+
+.f4 {
+  background-color: lightblue;
+  margin: 1rem;
+}
+
+#f4p1 {
+  padding: 1rem;
+}
+
+#f4p2 {
+  clear: left;
+}
+
+#f5p1 {
+  float: left;
+  width: 40%;
+  padding: 3%;
+}
+
+#f5p2 {
+  float: right;
+  width: 40%;
+  padding: 3%;
+}
+
+#vl1 {
+  border-left: .1rem solid #000;
+  height: 15rem;
+  margin: 1rem 3rem;
+  display: inline-block;
+}
+
+#f6p1 {
+  float: left;
+  width: 40%;
+  padding: 3%;
+}
+
+#f6p2 {
+  float: right;
+  width: 40%;
+  padding: 3%;
+}
+
+#vl2 {
+  border-left: .1rem solid #000;
+  height: 15rem;
+  margin: 1rem 3rem;
+  display: inline-block;
+}
+
