@@ -134,4 +134,14 @@ span {
   margin: 1rem 3rem;
   display: inline-block;
 }
+/* Position Property */
+.p1 {
+  width: 4rem;
+  height: 4rem;
+  background-color: red;
+}
 
+.p1:nth-child(even) {
+  position: relative;
+  left: 4rem;
+}
