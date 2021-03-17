@@ -5,7 +5,7 @@
     margin: 20px;
 }
 
-span {
+.d1span {
     display: block;
     border: thin solid #f00;
 }
@@ -144,4 +144,130 @@ span {
 .p1:nth-child(even) {
   position: relative;
   left: 4rem;
+}
+
+section {
+  position: relative;
+}
+
+#p2span1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#p2span2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+hr {
+  position: relative;
+  top: 2rem;
+}
+
+#p2span3 {
+  position: absolute;
+  right: 0;
+  top: 3rem;
+}
+
+#p2span4 {
+  position: absolute;
+  left: 0;
+  top: 3rem;
+}
+
+.p3 {
+  border: 1px solid black;
+  height: 100px;
+  position: relative;
+}
+
+#p3span1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#p3span2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#p3span3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#p3span4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.p4 {
+  position: relative;
+}
+
+.p4 h1 {
+  position: absolute;
+}
+
+.p4 div {
+  position: absolute;
+  top: 2.5rem;
+}
+
+.p5 {
+  position: relative;
+  top: 5rem;
+}
+
+#outer1, #outer2 {
+  width: 4rem;
+  height: 4rem;
+  background-color: lightgray;
+}
+
+#outer1 {
+  position: absolute;
+  left: 0;
+}
+
+#outer2 {
+  position: absolute;
+  right: 0;
+}
+
+#inner1, #inner2 {
+  width: 1rem;
+  height: 1rem;
+  background-color: darkgray;
+  position: relative;
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+.p6 {
+  background-color: lavender;
+  position: absolute;
+  /* offset-position: top 10rem left 0; */
+}
+
+.p7 a {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  padding: 1rem;
+  color: white;
+  margin: 1rem;
+}
+
+.p7 a:hover {
+  background-color: #f00;
 }
